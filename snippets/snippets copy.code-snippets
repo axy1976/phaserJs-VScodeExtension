@@ -1,0 +1,42 @@
+{
+    "getConstant Method":{
+        "prefix": "pjsconstants",
+        "body": [
+            "export default function getConstants(containerWidth, containerHeight) {",
+                "return {",
+                    "",
+                "}",
+            "}"
+        ],
+        "description": "Phaser JS Constant Method Boilerplate"
+    },
+    "preLoad Assests":{
+        "prefix": "pjspreload",
+        "body": "this.load.$asset_type('$asset_name', require('$asset_url').default);"
+    },
+    "preLoad Assests Require":{
+        "prefix": "pjspreloadrequire",
+        "body": "this.load.$asset_type('$asset_name', require('$asset_url').default, require('$asset_data'));"
+    },
+    "add image Assets":{
+        "prefix": "pjsAddImageAssets",
+        "body": "const $asset_variable = this.add.image($width, $height, '$preload_asset_name');"
+    },
+    "create anims":{
+        "prefix": "pjsCreateAnims",
+        "body": [
+            "this.anims.create({",
+                "key: \"loadingBar\",",
+                "frames: this.anims.generateFrameNames(\"loadingBar\", {",
+                    "prefix: \"\",",
+                    "suffix: \".png\",",
+                    "start: 1,",
+                    "end: 29,",
+                "}),",
+                "repeat: 0,",
+            "});",
+            "}"
+        ],
+        "description": "Creates new anim scene and its frames"
+    }
+}
