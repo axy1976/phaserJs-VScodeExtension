@@ -3,7 +3,13 @@
     "displayName": "Phaser JS",
     "description": "Phaser JS 2D game library code snippets.",
     "version": "0.0.1",
-    "publisher": "Akshay Jangir",
+    "publisher": "AkshayJangir",
+    "license": "SEE LICENSE IN LICENSE.md",
+    "homepage": "https://github.com/axy1976/phaserJs-VScodeExtension/blob/main/README.md",
+    "bugs": {
+        "url": "https://github.com/axy1976/phaserJs-VScodeExtension/issues",
+        "email": "akjangir1999@gmail.com"
+    },
     "repository": {
         "type": "git",
         "url": "https://github.com/axy1976/phaserJs-VScodeExtension.git"
@@ -16,6 +22,20 @@
         "Snippets"
     ],
     "contributes": {
+        "languages": [
+            {
+              "id": "javascript",
+              "aliases": ["javascript", "JavaScript"],
+              "extensions": [".js"]
+            }
+        ],
+        "grammars": [
+            {
+              "language": "javascript",
+              "scopeName": "",
+              "path": ""
+            }
+        ],
         "snippets": [
             {
                 "language": "javascript",
