@@ -1,6 +1,6 @@
 {
     "getConstant Method":{
-        "prefix": "pjsconstants",
+        "prefix": "pjsConstants",
         "body": [
             "export default function getConstants(containerWidth, containerHeight) {",
                 "return {",
@@ -11,11 +11,11 @@
         "description": "Phaser JS Constant Method Boilerplate"
     },
     "preLoad Assests":{
-        "prefix": "pjspreload",
+        "prefix": "pjsPreloadAssets",
         "body": "this.load.$asset_type('$asset_name', require('$asset_url').default);"
     },
     "preLoad Assests Require":{
-        "prefix": "pjspreloadrequire",
+        "prefix": "pjsPreloadAssetsRequire",
         "body": "this.load.$asset_type('$asset_name', require('$asset_url').default, require('$asset_data'));"
     },
     "add image Assets":{

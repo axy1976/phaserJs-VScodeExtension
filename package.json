@@ -8,7 +8,7 @@
         "type": "git",
         "url": "https://github.com/axy1976/phaserJs-VScodeExtension.git"
     },
-    "icon": "icon.png",
+    "icon": "asset/icon.png",
     "engines": {
         "vscode": "^1.69.0"
     },
