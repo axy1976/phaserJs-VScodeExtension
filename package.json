@@ -31,9 +31,7 @@
         ],
         "grammars": [
             {
-              "language": "javascript",
-              "scopeName": "",
-              "path": ""
+              "language": "javascript"
             }
         ],
         "snippets": [
