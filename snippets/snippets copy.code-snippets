@@ -3,9 +3,9 @@
         "prefix": "pjsConstants",
         "body": [
             "export default function getConstants(containerWidth, containerHeight) {",
-                "return {",
-                    "",
-                "}",
+            "   return {",
+            "",
+            "   }",
             "}"
         ],
         "description": "Phaser JS Constant Method Boilerplate"
@@ -26,16 +26,15 @@
         "prefix": "pjsCreateAnims",
         "body": [
             "this.anims.create({",
-                "key: \"loadingBar\",",
-                "frames: this.anims.generateFrameNames(\"loadingBar\", {",
-                    "prefix: \"\",",
-                    "suffix: \".png\",",
-                    "start: 1,",
-                    "end: 29,",
-                "}),",
-                "repeat: 0,",
-            "});",
-            "}"
+            "   key: \"loadingBar\",",
+            "   frames: this.anims.generateFrameNames(\"loadingBar\", {",
+            "       prefix: \"\",",
+            "       suffix: \".png\",",
+            "       start: 1,",
+            "       end: 29,",
+            "   }),",
+            "   repeat: 0,",
+            "});"
         ],
         "description": "Creates new anim scene and its frames"
     }
